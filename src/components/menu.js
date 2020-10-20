@@ -24,7 +24,7 @@ class Menu extends React.Component {
                 <img id="linkedin-link" alt="LinkedIn Link" src={require('./images/contact_links/linkedin.svg')}/>
             </a>
         </section>
-    </header>
+      </header>
     );
   }
 }
