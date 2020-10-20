@@ -1,4 +1,4 @@
-// import './navigation_header.js';
+import './navigation_header.js';
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
