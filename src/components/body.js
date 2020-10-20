@@ -14,7 +14,7 @@ class Body extends React.Component {
         <section id="main_content">
           <p>Welcome to my portfolio website</p>
           <p>Feel free to explore the navigation menu to learn more</p>
-          <img id="title_image" alt="Sitting at a tree image" src={require('./images/body/title_image2.svg')}/>
+          <img id="title_image" alt="Sitting at a tree" src={require('./images/body/title_image2.svg')}/>
         </section>
 
       </section>
