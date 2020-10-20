@@ -1,0 +1,79 @@
+/* Header Styling */
+header {
+  height: 65px;
+  overflow: hidden;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c3d8f0;
+}
+
+
+/* Header sections Styling*/
+#header_right, #header_left {
+  height: 100%;
+}
+
+
+/* Navigation text link Styling */
+#header_left a, .page-title {
+  height: 100%;
+  width: 17%;
+  margin: 0px;
+  padding: 19px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* Navigation Active Selection Styling */
+.active {
+  background-color: cornflowerblue;
+}
+
+
+/* Contact links header section Styling */
+#header_right{
+  margin: 0px 5px;
+}
+
+#header_right a {
+  height: 100%;
+  padding: 12px 6px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+
+/* Navigation Image link Styling */
+header a img {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 10px;
+}
+
+/* End of Header Styling */
+
+
+/* Desktop Header Global Styling */
+@media only screen and (min-width: 800px) {
+  /* Remove content that is only displayed for mobile */
+  .mobile {
+      display: none;
+  }
+  
+  /* Navigation bar for header section needs links spaced evenly */
+  .desktop_nav {
+      display: flex;
+      align-items: center;
+  }
+
+  /* Header sections spacing */
+  #header_left {
+      width: 84%;
+  } 
+
+}
+/* End of Desktop Global Styling */
