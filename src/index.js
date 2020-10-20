@@ -4,12 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// const element = <Welcome name="Sara" />;
-// ReactDOM.render(
-//   element,
-//   document.getElementById('root')
-// );
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
