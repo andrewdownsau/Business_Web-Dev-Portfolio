@@ -5,7 +5,7 @@ header {
   font-size: 24px;
   display: flex;
   justify-content: space-between;
-  background-color: #c3d8f0;
+  background-color: #EEE;
 }
 
 
@@ -16,7 +16,7 @@ header {
 
 
 /* Navigation text link Styling */
-#header_left a, .page-title {
+#header_left a {
   height: 100%;
   width: 17%;
   margin: 0px;
@@ -24,7 +24,9 @@ header {
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: white;
+  border: 1px solid #DDD;
+  background-color: #285e68;
 }
 
 /* Navigation Active Selection Styling */
@@ -40,8 +42,8 @@ header {
 
 #header_right a {
   height: 100%;
+  width: 48%;
   padding: 12px 6px;
-  border-radius: 50%;
   text-decoration: none;
 }
 

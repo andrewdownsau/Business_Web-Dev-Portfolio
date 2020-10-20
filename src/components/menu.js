@@ -2,13 +2,7 @@ import React from 'react';
 import './menu.css';
 
 class Menu extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {date: new Date()};
-  }
-
-  componentDidMount() {  }
-  componentWillUnmount() {  }
+  
   render() {
     return (
       <header>
