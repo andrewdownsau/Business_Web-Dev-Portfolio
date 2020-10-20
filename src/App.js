@@ -1,6 +1,6 @@
-import './navigation_header.js';
+// import './navigation_header.js';
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,6 +23,13 @@ function App() {
   //   </div>
   // );
   // return <UserGreeting />;
+  return (
+    <div>
+      <Welcome name="Sara" />
+      <Welcome name="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  );
 }
 
 export default App;
