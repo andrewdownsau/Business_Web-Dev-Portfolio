@@ -1,8 +1,8 @@
 
 #home {
   color: white;
-  height: calc(100vh - 130px);
   text-align: left;
+  overflow-y: scroll;
 }
 
 #page_title, #home p {
