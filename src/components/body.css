@@ -1,22 +1,21 @@
 
-#body_section {
+#home_content {
   color: white;
   height: calc(100vh - 130px);
   text-align: left;
 }
 
-#page_title, #main_content p {
+#page_title, #home_content p {
   margin: 0px;
   padding: 40px 50px;
   font-size: 40px;
 }
 
-#main_content p {
+#home_content p {
   padding: 0px 50px 20px 50px;
   font-size: 24px;
 }
 
 #title_image {
-  /* background-color: lawngreen; */
   padding: 40px;
 }

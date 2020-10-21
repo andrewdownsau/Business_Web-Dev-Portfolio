@@ -1,25 +1,31 @@
 import React from 'react';
 import './body.css';
+import data from './data/data.json';
+import title_image2 from './images/body/title_image2.svg';
 
-class Body extends React.Component {
+
+function renderer() {
+
+  const output = []
+  const children = []
   
-  render() {
-    return (
-      <section id="body_section">
-
-        <section id="title_area">
-          <h1 id="page_title">Andrew Downs - Web Developer</h1>
-        </section>
-
-        <section id="main_content">
-          <p>Welcome to my portfolio website</p>
-          <p>Feel free to explore the navigation menu to learn more</p>
-          <img id="title_image" alt="Sitting at a tree" src={require('./images/body/title_image2.svg')}/>
-        </section>
-
-      </section>
-    );
+  for (var i = 0; i < data.children.length; i++) {
+    children.push(React.createElement(
+      data.children[i].type,
+      { id: data.children[i].id, src: data.children[i].src, alt: data.children[i].alt},
+      data.children[i].children
+    ));
   }
+  
+  output.push(React.createElement(
+    data.type,
+    {id: data.id},
+    children
+  ));
+
+  return (
+    output
+  );
 }
 
-export default Body;
+export default renderer;

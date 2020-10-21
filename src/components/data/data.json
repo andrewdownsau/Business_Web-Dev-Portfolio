@@ -1,0 +1,27 @@
+{
+  "id": "home_content",
+  "type": "section",
+  "children": [
+    {
+      "id": "page_title",
+      "type": "h1",
+      "children": "Andrew Downs - Web Developer"
+    },
+    {
+      "class": "subtitle",
+      "type": "p",
+      "children": "Welcome to my portfolio website"
+    },
+    {
+      "class": "subtitle",
+      "type": "p",
+      "children": "Feel free to explore the navigation menu to learn more"
+    },
+    {
+      "id": "title_image",
+      "type": "img",
+      "alt": "Me sitting a tree with laptop",
+      "src": "/static/media/title_image2.4606bd29.svg" 
+    }
+  ]
+}
