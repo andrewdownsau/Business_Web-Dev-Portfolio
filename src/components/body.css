@@ -20,3 +20,13 @@
   width: 60%;
   max-width: 480px;
 }
+
+/* Small mobile device screen style */
+@media only screen and (max-width: 500px) {
+  #page_title {
+    font-size: 8vw;
+  }
+  #home p {
+    font-size: 4.8vw;
+  }
+}
