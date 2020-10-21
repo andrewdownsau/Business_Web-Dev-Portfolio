@@ -9,7 +9,7 @@ header a {
   display: inline-block;
   height: 65px;
   width: 14%;
-  padding-top: 20px;
+  padding-top: 17px;
   text-decoration: none;
   box-sizing: border-box;
   color: white;
@@ -89,7 +89,7 @@ header a {
   }
 
   .responsive #contact_link{
-    width: calc(100vw - 130px) !important;
+    width: calc(100vw - 130px - (100vw - 100%)) !important;
     display: inline-block !important;
     vertical-align: text-bottom;
   }
