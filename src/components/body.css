@@ -1,21 +1,23 @@
 
-#home_content {
+#home {
   color: white;
   height: calc(100vh - 130px);
   text-align: left;
 }
 
-#page_title, #home_content p {
+#page_title, #home p {
   margin: 0px;
   padding: 40px 50px;
   font-size: 40px;
 }
 
-#home_content p {
+#home p {
   padding: 0px 50px 20px 50px;
   font-size: 24px;
 }
 
 #title_image {
   padding: 40px;
+  width: 60%;
+  max-width: 480px;
 }

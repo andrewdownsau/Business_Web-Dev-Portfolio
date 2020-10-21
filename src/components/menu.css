@@ -1,80 +1,105 @@
-/* Header Styling */
+
 header {
-  height: 65px;
   overflow: hidden;
   font-size: 24px;
-  display: flex;
-  justify-content: space-between;
   background-color: #35707a;
 }
 
-
-/* Header sections Styling*/
-#header_right, #header_left {
-  height: 100%;
-}
-
-
-/* Navigation text link Styling */
-#header_left a {
-  height: 100%;
-  width: 17%;
-  margin: 0px;
-  padding: 19px 10px;
-  box-sizing: border-box;
-  text-align: center;
+header a {
+  display: inline-block;
+  height: 65px;
+  width: 14%;
+  padding-top: 20px;
   text-decoration: none;
+  box-sizing: border-box;
   color: white;
   border: 1px solid #DDD;
 }
 
-/* Navigation Active Selection Styling */
-.active {
-  background-color: cornflowerblue;
+#github_link, #linkedin_link {
+  padding-top: 12px;
+  width: 8%;
 }
 
-
-/* Contact links header section Styling */
-#header_right{
-  margin: 0px 5px;
-}
-
-#header_right a {
-  height: 100%;
-  width: 48%;
-  padding: 12px 6px;
-  text-decoration: none;
-}
-
-
-/* Navigation Image link Styling */
-header a img {
+#github_link img, #linkedin_link img {
   height: 40px;
   width: 40px;
-  position: relative;
-  top: 10px;
 }
 
-/* End of Header Styling */
+.icon {
+  color: black;
+  background: none;
+  border: 2px solid #AAA;
+  font-size: 34px;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
+.icon:hover {
+  cursor: pointer;
+}
 
-/* Desktop Header Global Styling */
+/* Navigation highlighting hover and active options */
+#top_nav a:hover{
+  background-color: #5ba35e;
+}
+#top_nav a.active {
+  background-color: #417542;
+}
+
+/* Desktop conditional styles */
 @media only screen and (min-width: 800px) {
-  /* Remove content that is only displayed for mobile */
-  .mobile {
-      display: none;
+  .icon {
+    display: none;
+  }
+
+  #top_nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+/* Mobile/Tablet conditional styles */
+@media only screen and (max-width: 800px) {
+  header a:not(.active) {
+    display: none;
+  }
+
+  #top_nav {
+    display: block;
+    text-align: left;
+  }
+
+  header a {
+    text-align: left;
+    padding-left: 20px;
+    width: 110px
   }
   
-  /* Navigation bar for header section needs links spaced evenly */
-  .desktop_nav {
-      display: flex;
-      align-items: center;
+  .icon {
+    display: inline-block;
   }
 
-  /* Header sections spacing */
-  #header_left {
-      width: 84%;
-  } 
+  /* Responsive template */
+  .responsive a {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .responsive #contact_link{
+    width: calc(100vw - 144px) !important;
+    display: inline-block !important;
+    vertical-align: text-bottom;
+  }
+
+  .responsive #github_link, .responsive #linkedin_link {
+    width: 65px !important;
+    display: inline-block !important;
+    text-align: center;
+    padding-left: 0px;
+    vertical-align: text-bottom;
+  }
 
 }
-/* End of Desktop Global Styling */

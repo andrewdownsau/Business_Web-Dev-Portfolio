@@ -8,26 +8,34 @@ class Menu extends React.Component {
   render() {
     return (
       <header>
-        <section id="header_left">
-            <nav className="desktop_nav">
-                <a href="./">Home</a>
-                <a href="./">About</a>
-                <a href="./">Skills</a>
-                <a href="./">Projects</a>
-                <a href="./">Blog</a>
-                <a href="./">Contact</a>
-            </nav>
-        </section>
-        <section id="header_right">
-            <a href="https://github.com/andrewdownsau" target="_blank" rel="noopener noreferrer">
-                <img id="github-link" alt="GitHub Link" src={github}/>
-            </a>
-            <a href="https://www.linkedin.com/in/andrew-downs-5899727b/" target="_blank" rel="noopener noreferrer">
-                <img id="linkedin-link" alt="LinkedIn Link" src={linkedin}/>
-            </a>
-        </section>
+        <nav id="top_nav">
+          <a href="./" className="active" >Home</a>
+          <a href="./">About</a>
+          <a href="./">Skills</a>
+          <a href="./">Projects</a>
+          <a href="./">Blog</a>
+          <a id="contact_link" href="./">Contact</a>
+          <a id="github_link" href="https://github.com/andrewdownsau" target="_blank" rel="noopener noreferrer">
+              <img alt="GitHub Link" src={github}/>
+          </a>
+          <a id="linkedin_link" href="https://www.linkedin.com/in/andrew-downs-5899727b/" target="_blank" rel="noopener noreferrer">
+              <img alt="LinkedIn Link" src={linkedin}/>
+          </a>
+          <button type="button" className="icon" onClick={menu_dropdown}>
+            <i className="fa fa-bars"></i>
+          </button>
+        </nav>
       </header>
     );
+  }
+}
+
+function menu_dropdown() {
+  var x = document.getElementById("top_nav");
+  if (x.className === "") {
+    x.className += "responsive";
+  } else {
+    x.className = "";
   }
 }
 
