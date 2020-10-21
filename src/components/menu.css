@@ -89,7 +89,7 @@ header a {
   }
 
   .responsive #contact_link{
-    width: calc(100vw - 130px - (100vw - 100%)) !important;
+    width: calc(100% - 130px) !important;
     display: inline-block !important;
     vertical-align: text-bottom;
   }

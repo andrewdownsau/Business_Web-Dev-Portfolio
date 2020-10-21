@@ -1,7 +1,5 @@
 import React from 'react';
 import './menu.css';
-import github from './images/contact_links/github.svg';
-import linkedin from './images/contact_links/linkedin.svg';
 
 class Menu extends React.Component {
   
@@ -16,10 +14,10 @@ class Menu extends React.Component {
           <a href="./">Blog</a>
           <a id="contact_link" href="./">Contact</a>
           <a id="github_link" href="https://github.com/andrewdownsau" target="_blank" rel="noopener noreferrer">
-              <img alt="GitHub Link" src={github}/>
+              <img alt="GitHub Link" src={ process.env.PUBLIC_URL + '/images/contact_links/github.svg'}/>
           </a>
           <a id="linkedin_link" href="https://www.linkedin.com/in/andrew-downs-5899727b/" target="_blank" rel="noopener noreferrer">
-              <img alt="LinkedIn Link" src={linkedin}/>
+              <img alt="LinkedIn Link" src={ process.env.PUBLIC_URL + '/images/contact_links/linkedin.svg'}/>
           </a>
           <button type="button" className="icon" onClick={menu_dropdown}>
             <i className="fa fa-bars"></i>
