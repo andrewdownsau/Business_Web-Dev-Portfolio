@@ -9,6 +9,13 @@ function renderer() {
   const output = []
   const children = []
   const image_source = {title_image2}
+  const hidden_images = []
+
+  hidden_images.push(React.createElement(
+    "img",
+    { src: {image_source}},
+
+  ));
   
   for (var i = 0; i < data.children.length; i++) {
     children.push(React.createElement(
