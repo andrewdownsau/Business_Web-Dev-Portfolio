@@ -11,10 +11,6 @@ body {
   background-attachment: fixed;  
   background-size: cover;
 
-  /* Hide scrollbar for IE, Edge and Firefox */
-  overflow: hidden;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
 }
 
 code {
@@ -23,7 +19,3 @@ code {
 }
 
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}

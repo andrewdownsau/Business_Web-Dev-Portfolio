@@ -2,7 +2,6 @@
 #home {
   color: white;
   text-align: left;
-  overflow-y: scroll;
 }
 
 #page_title, #home p {
