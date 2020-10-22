@@ -36,7 +36,7 @@
   #page_title {
     font-size: 8vw;
   }
-  .subtitle {
+  .subtitle, .link {
     font-size: 4.8vw;
   }
 }
