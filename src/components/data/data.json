@@ -68,5 +68,49 @@
         "src": "/images/body/about_image1.svg" 
       }
     ]
+  },
+  {
+    "id": "skills",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "Time line of my skills and experience"
+      }
+    ]
+  },
+  {
+    "id": "projects",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "Personal Projects Gallery"
+      }
+    ]
+  },
+  {
+    "id": "blog",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "Blog Archive"
+      }
+    ]
+  },
+  {
+    "id": "contact",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "If you'd like to get in touch..."
+      }
+    ]
   }
 ]
