@@ -1,27 +1,66 @@
-{
-  "id": "home",
-  "type": "section",
-  "children": [
-    {
-      "id": "page_title",
-      "type": "h1",
-      "children": "Andrew Downs - Web Developer"
-    },
-    {
-      "class": "subtitle",
-      "type": "p",
-      "children": "Welcome to my portfolio website"
-    },
-    {
-      "class": "subtitle",
-      "type": "p",
-      "children": "Feel free to explore the navigation menu to learn more"
-    },
-    {
-      "id": "title_image",
-      "type": "img",
-      "alt": "Me sitting at a tree with laptop",
-      "src": "/images/body/title_image2.svg" 
-    }
-  ]
-}
+[
+  {
+    "id": "home",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "Andrew Downs - Web Developer"
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "Welcome to my portfolio website"
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "Feel free to explore the navigation menu to learn more"
+      },
+      {
+        "id": "title_image",
+        "type": "img",
+        "alt": "Me sitting at a tree with laptop",
+        "src": "/images/body/title_image2.svg" 
+      }
+    ]
+  },
+  {
+    "id": "about",
+    "type": "section",
+    "children": [
+      {
+        "id": "page_title",
+        "type": "h1",
+        "children": "A little bit about me"
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "Words are my symbols, my ideas and thoughts. They are my strongest connection to meaning."
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "Understanding has come hard, but nothing worth doing was ever easy."
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "I'm a full stack web developer in training @ Coder Academy I want to understand the wants and needs of both clients and their customers to produce digital products that enrich our connections and expand our understanding."
+      },
+      {
+        "class": "subtitle",
+        "type": "p",
+        "children": "This web portfolio is here to showcase my skills and interests to anyone who may be need of my abilities presently or in the near future. If you want to view a formal document, click on this link for my CV."
+      },
+      {
+        "id": "about_image",
+        "type": "img",
+        "alt": "Pen and paper, type writer and laptop",
+        "src": "/images/body/about_image1.svg" 
+      }
+    ]
+  }
+]

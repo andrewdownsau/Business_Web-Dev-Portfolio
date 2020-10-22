@@ -1,40 +1,44 @@
 import React from 'react';
 import './menu.css';
+import {Link} from "react-router-dom";
 
-class Menu extends React.Component {
+
   
-  render() {
-    return (
-      <header>
-        <nav id="top_nav">
-          <a href="./" className="active" >Home</a>
-          <a href="./">About</a>
-          <a href="./">Skills</a>
-          <a href="./">Projects</a>
-          <a href="./">Blog</a>
-          <a id="contact_link" href="./">Contact</a>
-          <a id="github_link" href="https://github.com/andrewdownsau" target="_blank" rel="noopener noreferrer">
-              <img alt="GitHub Link" src={ process.env.PUBLIC_URL + '/images/contact_links/github.svg'}/>
-          </a>
-          <a id="linkedin_link" href="https://www.linkedin.com/in/andrew-downs-5899727b/" target="_blank" rel="noopener noreferrer">
-              <img alt="LinkedIn Link" src={ process.env.PUBLIC_URL + '/images/contact_links/linkedin.svg'}/>
-          </a>
-          <button type="button" className="icon" onClick={menu_dropdown}>
-            <i className="fa fa-bars"></i>
-          </button>
-        </nav>
-      </header>
-    );
-  }
+export default function render(props) {
+  return (
+    <header>
+      <nav id="top_nav">
+        <Link className={set_active(props.page, "home")} to="/">Home</Link>
+        <Link className={set_active(props.page, "about")} to="/about">About</Link>
+        <Link className={set_active(props.page, "skills")} to="/skills">Skills</Link>
+        <Link className={set_active(props.page, "projects")} to="/projects">Projects</Link>
+        <Link className={set_active(props.page, "blog")} to="/blog">Blog</Link>
+        <Link className={set_active(props.page, "contact")} id="contact_link" to="/contact">Contact</Link>
+
+        <a id="github_link" href="https://github.com/andrewdownsau" target="_blank" rel="noopener noreferrer">
+          <img alt="GitHub Link" src={ process.env.PUBLIC_URL + '/images/contact_links/github.svg'}/>
+        </a>
+        <a id="linkedin_link" href="https://www.linkedin.com/in/andrew-downs-5899727b/" target="_blank" rel="noopener noreferrer">
+          <img alt="LinkedIn Link" src={ process.env.PUBLIC_URL + '/images/contact_links/linkedin.svg'}/>
+        </a>
+        <button type="button" className="icon" onClick={menu_dropdown}>
+          <i className="fa fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+  );
 }
+
 
 function menu_dropdown() {
-  var x = document.getElementById("top_nav");
-  if (x.className === "") {
-    x.className += "responsive";
+  var navigation_menu = document.getElementById("top_nav");
+  if (navigation_menu.className === "") {
+    navigation_menu.className += "responsive";
   } else {
-    x.className = "";
+    navigation_menu.className = "";
   }
 }
 
-export default Menu;
+function set_active(active_page, page){
+  if(active_page === page) return "active"
+}

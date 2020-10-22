@@ -1,16 +1,13 @@
 
-#home {
+#page_title, .subtitle {
+  margin: 0px;
+  padding: 40px 50px;
+  font-size: 40px;
   color: white;
   text-align: left;
 }
 
-#page_title, #home p {
-  margin: 0px;
-  padding: 40px 50px;
-  font-size: 40px;
-}
-
-#home p {
+.subtitle {
   padding: 0px 50px 20px 50px;
   font-size: 24px;
 }
@@ -21,12 +18,18 @@
   max-width: 480px;
 }
 
+#about_image {
+  padding: 40px;
+  width: 80%;
+  max-width: 1000px;
+}
+
 /* Small mobile device screen style */
 @media only screen and (max-width: 500px) {
   #page_title {
     font-size: 8vw;
   }
-  #home p {
+  .subtitle {
     font-size: 4.8vw;
   }
 }
