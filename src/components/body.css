@@ -1,5 +1,5 @@
 
-#page_title, .subtitle {
+#page_title, .subtitle, .link {
   margin: 0px;
   padding: 40px 50px;
   font-size: 40px;
@@ -7,9 +7,15 @@
   text-align: left;
 }
 
-.subtitle {
+.subtitle, .link {
   padding: 0px 50px 20px 50px;
   font-size: 24px;
+}
+
+.link {
+  float: left;
+  color: #BBB;
+  text-decoration: none;
 }
 
 #title_image {

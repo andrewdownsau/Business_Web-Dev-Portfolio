@@ -16,7 +16,8 @@ export default function renderer(props) {
             id: data[j].children[i].id,
             src: data[j].children[i].src,
             alt: data[j].children[i].alt,
-            className: data[j].children[i].class
+            className: data[j].children[i].class,
+            href: data[j].children[i].href
           },
           data[j].children[i].children
         ));
