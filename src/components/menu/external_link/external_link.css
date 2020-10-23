@@ -1,0 +1,25 @@
+#external_links a {
+  display: inline-block;
+  height: 65px;
+  padding-top: 12px;
+  width: 60px;
+  box-sizing: border-box;
+  border: 1px solid #DDD;
+}
+
+#external_links img {
+  height: 40px;
+  width: 40px;
+}
+
+/* Navigation highlighting hover */
+#external_links a:hover{
+  background-color: #5ba35e;
+}
+
+/* Mobile/Tablet conditional styles */
+@media only screen and (max-width: 800px) {
+  #external_links a {
+    display: none;
+  }
+}

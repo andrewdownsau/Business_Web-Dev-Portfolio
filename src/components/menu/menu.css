@@ -5,21 +5,10 @@ header {
   background-color: #35707a;
 }
 
-#menu_options {
-  width: 100%;
+#page_links {
+  /* width: calc(100% - 180px); */
   display: flex;
   justify-content: stretch;
-}
-
-
-#github_link, #linkedin_link {
-  padding-top: 12px;
-  width: 8%;
-}
-
-#github_link img, #linkedin_link img {
-  height: 40px;
-  width: 40px;
 }
 
 .icon {

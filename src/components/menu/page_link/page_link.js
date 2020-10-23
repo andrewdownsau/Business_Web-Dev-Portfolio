@@ -3,22 +3,22 @@ import './page_link.css';
 import {NavLink} from "react-router-dom";
 
 export default function render(props){
-  const option_width = String(100/props.number)+'%';
+  const page_link_width = String(100/props.number)+'%';
   const nav_key = "nav_link " + props.page;
-  const option_path = '/' + props.page.toLowerCase();
-  const option_link = (
+  const page_link_path = '/' + props.page.toLowerCase();
+  const page_link_link = (
     <NavLink 
       key={nav_key} 
       className="page_link" 
-      style={{ width: option_width }} 
+      style={{ width: page_link_width }} 
       onClick={menu_un_collapse} 
-      to={option_path} 
+      to={page_link_path} 
     >
       {props.page}
     </NavLink>
   );
   return(
-    option_link
+    page_link_link
   );
 }
 
