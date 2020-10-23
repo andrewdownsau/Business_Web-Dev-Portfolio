@@ -77,6 +77,171 @@
         "id": "page_title",
         "type": "h1",
         "children": "Time line of my skills and experience"
+      },
+      {
+        "id": "left_column",
+        "type": "section",
+        "children": [
+          {
+            "class": "card_segment",
+            "type": "section",
+            "children": [
+              {
+                "class": "card_line small_screen",
+                "type": "hr",
+                "children": null
+              },
+              {
+                "class": "card",
+                "type": "section",
+                "children": [
+                  {
+                    "class": "fa fa-file-code-o card_icon",
+                    "type": "i",
+                    "children": ""
+                  },
+                  {
+                    "class": "card_title",
+                    "type": "h3",
+                    "children": "2020 Coder Academy Boot-camp"
+                  },
+                  {
+                    "class": "card_text",
+                    "type": "p",
+                    "children": "Fast-track web development coding course designed to qualify me for full stack development"
+                  }
+                ]
+              },
+              {
+                "class": "card_line med_screen",
+                "type": "hr",
+                "children": null
+              }
+            ]
+          },
+          {
+            "class": "card_spacing",
+            "type": "section",
+            "children": ""
+          },
+          {
+            "class": "card_segment",
+            "type": "section",
+            "children": [
+              {
+                "class": "card_line small_screen",
+                "type": "hr",
+                "children": null
+              },
+              {
+                "class": "card",
+                "type": "section",
+                "children": [
+                  {
+                    "class": "fa fa fa-bolt card_icon",
+                    "type": "i",
+                    "children": ""
+                  },
+                  {
+                    "class": "card_title",
+                    "type": "h3",
+                    "children": "2017 Electrical Eng BA (RMIT)"
+                  },
+                  {
+                    "class": "card_text",
+                    "type": "p",
+                    "children": "4-year Electrical/electronic engineering bachelor degree with first class honors"
+                  }
+                ]
+              },
+              {
+                "class": "card_line med_screen",
+                "type": "hr",
+                "children": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "right_column",
+        "type": "section",
+        "children": [
+          {
+            "class": "card_spacing",
+            "type": "section",
+            "children": ""
+          },
+          {
+            "class": "card_segment",
+            "type": "section",
+            "children": [
+              {
+                "class": "card_line",
+                "type": "hr",
+                "children": null
+              },
+              {
+                "class": "card",
+                "type": "section",
+                "children": [
+                  {
+                    "class": "fa fa-train card_icon",
+                    "type": "i",
+                    "children": ""
+                  },
+                  {
+                    "class": "card_title",
+                    "type": "h3",
+                    "children": "2018 Railway Signalling Cadetship (John Holland)"
+                  },
+                  {
+                    "class": "card_text",
+                    "type": "p",
+                    "children": "Cadetship program coordinated by LXRA to up-skill electrical engineers to railway signalling engineer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "card_spacing",
+            "type": "section",
+            "children": ""
+          },
+          {
+            "class": "card_segment",
+            "type": "section",
+            "children": [
+              {
+                "class": "card_line",
+                "type": "hr",
+                "children": null
+              },
+              {
+                "class": "card",
+                "type": "section",
+                "children": [
+                  {
+                    "class": "fa fa-star card_icon",
+                    "type": "i",
+                    "children": ""
+                  },
+                  {
+                    "class": "card_title",
+                    "type": "h3",
+                    "children": "2012 In2Science Mentoring (RMIT)"
+                  },
+                  {
+                    "class": "card_text",
+                    "type": "p",
+                    "children": "RMIT sponsored mentorship program connecting university engineering and science students to volunteer at secondary schools in Melbourne."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
