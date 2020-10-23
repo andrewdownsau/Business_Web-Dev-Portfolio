@@ -5,8 +5,8 @@ import {NavLink} from "react-router-dom";
 export default function render(props){
   const page_link_width = String(100/props.number)+'%';
   const nav_key = "nav_link " + props.page;
-  const page_link_id = props.page.toLowerCase() + "_link"
-  const page_link_path = '/' + props.page.toLowerCase();
+  const page_link_id = props.page + "_link"
+  const page_link_path = '/' + props.page;
   const page_link_link = (
     <NavLink 
       key={nav_key}
@@ -16,7 +16,7 @@ export default function render(props){
       onClick={menu_un_collapse} 
       to={page_link_path} 
     >
-      {props.page}
+      {capitalizeFirstLetter(props.page)}
     </NavLink>
   );
   return(
@@ -26,4 +26,8 @@ export default function render(props){
 
 function menu_un_collapse() {
   document.getElementById("top_nav").className = "";
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
