@@ -26,6 +26,20 @@
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
-    width: auto;
+    width: auto !important;
+    float: left;
   }
+
+  /* Responsive template */
+  .responsive a.page_link {
+    display: block;
+    width:100% !important;
+  }
+
+  .responsive #contact_link{
+    width: calc(100% - 130px) !important; /* Must change based on number of external links */
+    display: inline-block !important;
+    vertical-align: text-bottom;
+  }
+
 }
