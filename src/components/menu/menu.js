@@ -1,6 +1,7 @@
 import React from 'react';
 import './menu.css';
-import {Link} from "react-router-dom";
+import MenuOption from './menu_option/menu_option.js'
+import menu_options from './menu_options.json'
 
 
   
@@ -8,7 +9,8 @@ export default function render(props) {
   return (
     <header>
       <nav id="top_nav">
-        <Link className={set_active(props.page, "home")} onClick={menu_un_collapse} to="/">Home</Link>
+        {render_menu_options(props.page)}
+        {/* <Link className={set_active(props.page, "home")} onClick={menu_un_collapse} to="/">Home</Link>
         <Link className={set_active(props.page, "about")} onClick={menu_un_collapse} to="/about">About</Link>
         <Link className={set_active(props.page, "skills")} onClick={menu_un_collapse} to="/skills">Skills</Link>
         <Link className={set_active(props.page, "projects")} onClick={menu_un_collapse} to="/projects">Projects</Link>
@@ -23,25 +25,29 @@ export default function render(props) {
         </a>
         <button type="button" className="icon" onClick={menu_dropdown_up}>
           <i className="fa fa-bars"></i>
-        </button>
+        </button> */}
       </nav>
     </header>
   );
 }
 
-function menu_un_collapse() {
-  document.getElementById("top_nav").className = "";
-}
-
-function menu_dropdown_up() {
-  var navigation_menu = document.getElementById("top_nav");
-  if (navigation_menu.className === "") {
-    navigation_menu.className += "responsive";
-  } else {
-    navigation_menu.className = "";
+function render_menu_options(active_page) {
+  const options = []
+  for (var index=0; index < menu_options.length; index++) {
+    options.push(<MenuOption page={menu_options[index]} active={active_page} />)
   }
+  return (
+    options
+  );
 }
 
-function set_active(active_page, page){
-  if(active_page === page) return "active"
-}
+
+// function menu_dropdown_up() {
+//   var navigation_menu = document.getElementById("top_nav");
+//   if (navigation_menu.className === "") {
+//     navigation_menu.className += "responsive";
+//   } else {
+//     navigation_menu.className = "";
+//   }
+// }
+

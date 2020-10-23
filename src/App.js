@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/menu.js';
-import Footer from './components/footer.js';
+import Menu from './components/menu/menu.js';
+import Footer from './components/footer/footer.js';
 import Body from './components/body.js';
 import {
   Switch,
@@ -34,7 +34,7 @@ export default function App() {
           <Body link="contact"/>
         </Route>
         <Route path="/">
-          <Menu page="home"/>
+          <Menu page="Home"/>
           <Body link="home"/>
         </Route>
       </Switch>
