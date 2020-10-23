@@ -1,4 +1,4 @@
-.menu_option {
+.page_link {
   display: inline-block;
   height: 65px;
   padding-top: 17px;
@@ -9,20 +9,20 @@
 }
 
 /* Navigation highlighting hover and active options */
-.menu_option:hover{
+.page_link:hover{
   background-color: #5ba35e;
 }
-.menu_option.active {
+.page_link.active {
   background-color: #417542;
 }
 
 /* Mobile/Tablet conditional styles */
 @media only screen and (max-width: 800px) {
-  a:not(.active).menu_option {
+  a:not(.active).page_link {
     display: none;
   }
 
-  a.menu_option {
+  a.page_link {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;

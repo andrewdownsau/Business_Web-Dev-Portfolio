@@ -1,5 +1,5 @@
 import React from 'react';
-import './menu_option.css';
+import './page_link.css';
 import {NavLink} from "react-router-dom";
 
 export default function render(props){
@@ -9,7 +9,7 @@ export default function render(props){
   const option_link = (
     <NavLink 
       key={nav_key} 
-      className="menu_option" 
+      className="page_link" 
       style={{ width: option_width }} 
       onClick={menu_un_collapse} 
       to={option_path} 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './menu.css';
-import MenuOption from './menu_option/menu_option.js'
-import menu_options from './menu_options.json'
+import PageLink from './page_link/page_link.js'
+import page_links from './page_links.json'
 
 
   
@@ -11,6 +11,9 @@ export default function render(props) {
       <nav id="top_nav">
         <section id="menu_options">
           {render_menu_options(props.page)}
+        </section>
+        <section id="external_links">
+          {render_external_links()}
         </section>
         {/* <Link className={set_active(props.page, "home")} onClick={menu_un_collapse} to="/">Home</Link>
         <Link className={set_active(props.page, "about")} onClick={menu_un_collapse} to="/about">About</Link>
@@ -35,15 +38,18 @@ export default function render(props) {
 
 function render_menu_options(active_page) {
   const options = []
-  const number_of_options = menu_options.length;
+  const number_of_options = page_links.length;
   for (var index=0; index < number_of_options; index++) {
-    options.push(<MenuOption page={menu_options[index]} active={active_page} number={number_of_options} />)
+    options.push(<PageLink page={page_links[index]} active={active_page} number={number_of_options} />)
   }
   return (
     options
   );
 }
 
+function render_external_links() {
+
+}
 
 // function menu_dropdown_up() {
 //   var navigation_menu = document.getElementById("top_nav");
