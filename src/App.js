@@ -5,7 +5,8 @@ import Footer from './components/footer/footer.js';
 import Body from './components/body.js';
 import {
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 
 
@@ -33,9 +34,12 @@ export default function App() {
           <Menu page="contact"/>
           <Body link="contact"/>
         </Route>
-        <Route path="/">
-          <Menu page="Home"/>
+        <Route path="/home">
+          <Menu page="home"/>
           <Body link="home"/>
+        </Route>
+        <Route path= '/'>
+          <Redirect to="/home" />
         </Route>
       </Switch>
       <Footer />

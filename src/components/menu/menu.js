@@ -9,7 +9,9 @@ export default function render(props) {
   return (
     <header>
       <nav id="top_nav">
-        {render_menu_options(props.page)}
+        <section id="menu_options">
+          {render_menu_options(props.page)}
+        </section>
         {/* <Link className={set_active(props.page, "home")} onClick={menu_un_collapse} to="/">Home</Link>
         <Link className={set_active(props.page, "about")} onClick={menu_un_collapse} to="/about">About</Link>
         <Link className={set_active(props.page, "skills")} onClick={menu_un_collapse} to="/skills">Skills</Link>
@@ -33,8 +35,9 @@ export default function render(props) {
 
 function render_menu_options(active_page) {
   const options = []
-  for (var index=0; index < menu_options.length; index++) {
-    options.push(<MenuOption page={menu_options[index]} active={active_page} />)
+  const number_of_options = menu_options.length;
+  for (var index=0; index < number_of_options; index++) {
+    options.push(<MenuOption page={menu_options[index]} active={active_page} number={number_of_options} />)
   }
   return (
     options

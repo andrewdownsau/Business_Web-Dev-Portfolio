@@ -5,6 +5,12 @@ header {
   background-color: #35707a;
 }
 
+#menu_options {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+}
+
 
 #github_link, #linkedin_link {
   padding-top: 12px;
@@ -40,7 +46,7 @@ header {
 
   #top_nav {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
   }
 }
 
@@ -52,8 +58,6 @@ header {
     display: block;
     text-align: left;
   }
-
-  
   
   .icon {
     display: inline-block;

@@ -1,24 +1,25 @@
 import React from 'react';
 import './menu_option.css';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 export default function render(props){
+  const option_width = String(100/props.number)+'%';
+  const nav_key = "nav_link " + props.page;
+  const option_path = '/' + props.page.toLowerCase();
   const option_link = (
-    <Link className={set_active(props)} onClick={menu_un_collapse} to="/">{props.page}</Link>
+    <NavLink 
+      key={nav_key} 
+      className="menu_option" 
+      style={{ width: option_width }} 
+      onClick={menu_un_collapse} 
+      to={option_path} 
+    >
+      {props.page}
+    </NavLink>
   );
   return(
     option_link
   );
-}
-
-
-function set_active(props){
-  if(props.active === props.page){
-    return "menu_option active"
-  }
-  else{
-    return "menu_option"
-  }
 }
 
 function menu_un_collapse() {
