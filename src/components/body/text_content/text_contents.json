@@ -1,0 +1,42 @@
+[
+  {
+    "page": "home",
+    "text_content": [
+      "Welcome to my portfolio website",
+      "Feel free to explore the navigation menu to learn more"
+    ]
+  },
+  {
+    "page": "about",
+    "text_content": [
+      "Words are my symbols, my ideas and thoughts. They are my strongest connection to meaning.",
+      "Understanding has come hard, but nothing worth doing was ever easy.",
+      "I'm a full stack web developer in training @ Coder Academy I want to understand the wants and needs of both clients and their customers to produce digital products that enrich our connections and expand our understanding.",
+      "This web portfolio is here to showcase my skills and interests to anyone who may be need of my abilities presently or in the near future. If you want to view a formal document, click on this link below."
+    ]
+  },
+  {
+    "page": "skills",
+    "text_content": [
+    
+    ]
+  },
+  {
+    "page": "projects",
+    "text_content": [
+
+    ]
+  },
+  {
+    "page": "blog",
+    "text_content": [
+
+    ]
+  },
+  {
+    "page": "contact",
+    "text_content": [
+
+    ]
+  }
+]

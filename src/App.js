@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Pages from './components/menu/page_links.json';
+import Pages from './components/menu/page_link/page_links.json';
 import Menu from './components/menu/menu.js';
 import Footer from './components/footer/footer.js';
-import Body from './components/body.js';
+import Body from './components/body/body_new.js';
 import {
   Switch,
   Route,
@@ -17,7 +17,7 @@ export default function App() {
     route_arr.push(
       <Route path={'/' + Pages[index]}>
         <Menu page={Pages[index]}/>
-        <Body link={Pages[index]}/>
+        <Body page={Pages[index]}/>
       </Route>
     )
   }
@@ -25,7 +25,7 @@ export default function App() {
     <div className="App">
       <Switch>
         {route_arr}
-        <Route path= '/'>
+        <Route path= '/'> {/* Redirect to home so that nav link registers as active */}
           <Redirect to="/home" />
         </Route>
       </Switch>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './body.css';
-import data from './data/data.json';
+import data from '../data/data.json';
 
 export default function renderer(props) {
 

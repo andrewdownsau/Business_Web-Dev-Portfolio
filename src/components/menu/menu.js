@@ -1,9 +1,9 @@
 import React from 'react';
 import './menu.css';
 import PageLink from './page_link/page_link.js';
-import page_links from './page_links.json';
+import page_links from './page_link/page_links.json';
 import ExternalLink from './external_link/external_link.js';
-import external_links from './external_links.json';
+import external_links from './external_link/external_links.json';
 
 
   
