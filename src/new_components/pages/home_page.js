@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTitle from '../body/body_components/page_title/page_title.js';
+import PageTitle from '../body_components/page_title/page_title.js';
 
 export default class HomePage extends React.Component {
   static getDerivedStateFromProps(props) {
