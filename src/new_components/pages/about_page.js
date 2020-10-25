@@ -19,6 +19,10 @@ export default class AboutPage extends React.Component {
         <a id="resume_link" href="/2020_02_18 Andrew Downs Resume.pdf">
           Developer Resume
         </a>
+        <img
+          id= "about_image"
+          alt= "Pen and paper, type writer and laptop"
+          src= "/images/body/about_image1.svg" />
       </section>
     );
   }
