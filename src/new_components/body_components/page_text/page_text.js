@@ -1,10 +1,10 @@
 import React from 'react';
-import './page_title.css';
+import './page_text.css';
 
-export default class PageTitle extends React.Component {
+export default class PageText extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {className: "page_title"};
+    this.state = {className: "page_text"};
   }
 
   static getDerivedStateFromProps(props) {
@@ -13,9 +13,9 @@ export default class PageTitle extends React.Component {
 
   render() {
     return (
-      <h1 className={this.state.className}>
+      <p className={this.state.className}>
         {this.state.content}
-      </h1>
+      </p>
     );
   }
 }
