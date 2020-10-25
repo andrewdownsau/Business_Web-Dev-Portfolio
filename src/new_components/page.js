@@ -1,7 +1,7 @@
 import React from 'react';
 import TopNav from './top_nav/top_nav.js'
 // import Body from './body/body.js'
-// import Footer from './footer/footer.js'
+import Footer from './footer/footer.js'
 
 export default class Page extends React.Component {
   constructor(props) {
@@ -17,6 +17,7 @@ export default class Page extends React.Component {
     return (
       <section id={this.state.page}>
         <TopNav />
+        <Footer />
       </section>
     );
   }

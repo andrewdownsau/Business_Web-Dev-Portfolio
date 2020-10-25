@@ -24,7 +24,7 @@ function menu_dropdown_up() {
   var navigation_menu = document.getElementById("top_nav");
   if (navigation_menu.className === "") {
     navigation_menu.className += "responsive";
-  } ;
+  } 
   else {
     navigation_menu.className = "";
   }
