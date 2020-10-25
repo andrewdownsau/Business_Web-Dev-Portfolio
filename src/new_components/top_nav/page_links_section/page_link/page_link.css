@@ -37,7 +37,7 @@
     width:100% !important;
   }
 
-  .responsive #contact_link{
+  .responsive #contact_page_link{
     width: calc(100% - 130px) !important; /* Must change based on number of external links */
     display: inline-block !important;
     vertical-align: text-bottom;

@@ -1,0 +1,13 @@
+/* Desktop conditional styles */
+/* @media only screen and (min-width: 800px) {
+  #page_links {
+    display: block;
+  }
+}
+
+/* Mobile/Tablet conditional styles 
+@media only screen and (max-width: 800px) {
+  #page_links{
+    display: block;
+  }
+} */

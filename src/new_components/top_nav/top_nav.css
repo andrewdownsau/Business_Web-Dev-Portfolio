@@ -1,0 +1,40 @@
+#top_nav {
+  display: flex;
+  overflow: hidden;
+  background-color: #35707a;
+}
+
+.icon {
+  color: black;
+  background: none;
+  border: 2px solid #AAA;
+  font-size: 34px;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: #5ba35e;
+}
+
+/* Desktop conditional styles */
+@media only screen and (min-width: 800px) {
+  .icon {
+    display: none;
+  }
+}
+
+/* Mobile/Tablet conditional styles */
+@media only screen and (max-width: 800px) {
+  #top_nav {
+    display: block;
+  }
+
+  /* Responsive template */
+  .responsive #page_links {
+    width:100% !important;
+  }
+}
