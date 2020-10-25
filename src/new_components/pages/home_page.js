@@ -13,6 +13,10 @@ export default class HomePage extends React.Component {
         <PageTitle content="Andrew Downs - Web Developer" />
         <PageText content="Welcome to my portfolio website" />
         <PageText content="Feel free to explore the navigation menu to learn more" />
+        <img
+          id= "title_image"
+          alt= "Me sitting at a tree with laptop"
+          src= "/images/body/title_image2.svg" />
       </section>
     );
   }
