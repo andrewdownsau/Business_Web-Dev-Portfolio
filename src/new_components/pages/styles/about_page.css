@@ -1,0 +1,27 @@
+#about_page_content {
+  text-align: left;
+}
+
+#resume_link {
+  margin: 0px;
+  font-size: 24px;
+  padding: 16px 40px;
+  color: #BBB;
+  text-decoration: none;
+}
+
+/* Narrow screen style */
+@media only screen and (max-width: 800px) {
+  #resume_link {
+    font-size: 3vw;
+    padding: 2vmin 5vmin;
+  }
+}
+
+/* Very narrow screen style */
+@media only screen and (max-width: 600px) {
+  #resume_link {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
+}
