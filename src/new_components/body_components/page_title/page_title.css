@@ -1,14 +1,23 @@
 .page_title {
   margin: 0px;
-  padding: 40px 50px;
   font-size: 40px;
+  padding: 32px 40px;
   color: white;
   text-align: left;
 }
 
-/* Small mobile device screen style */
-@media only screen and (max-width: 500px) {
+/* Narrow screen style */
+@media only screen and (max-width: 800px) {
   .page_title {
-    font-size: 8vw;
+    font-size: 5vw;
+    padding: 4vw 5vw;
+  }
+}
+
+/* Very narrow screen style */
+@media only screen and (max-width: 600px) {
+  .page_title {
+    font-size: 30px;
+    padding: 24px 30px;
   }
 }
