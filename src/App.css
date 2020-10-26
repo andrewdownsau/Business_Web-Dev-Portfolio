@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   overflow: hidden;
+  color: white;
   height: 100%;
   min-width: 800px;
   max-width: 1200px;

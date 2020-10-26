@@ -4,13 +4,9 @@ import PageTitle from '../body_components/page_title/page_title.js';
 import PageText from '../body_components/page_text/page_text.js';
 
 export default class AboutPage extends React.Component {
-  static getDerivedStateFromProps(props) {
-    return {page: props.page };
-  }
-
   render() {
     return (
-      <section id={this.state.page + "_page_content"}>
+      <section id={"about_page_content"}>
         <PageTitle content="A little bit about me" />
         <PageText content="Words are my symbols, my ideas and thoughts. They are my strongest connection to meaning." />
         <PageText content="Understanding has come hard, but nothing worth doing was ever easy." />

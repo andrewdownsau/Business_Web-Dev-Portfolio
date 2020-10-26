@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Page from './new_components/page.js'
-import Pages from './new_components/pages.json';
+import Page from './components/page.js'
+import Pages from './components/pages.json';
 import {
   Switch,
   Route,

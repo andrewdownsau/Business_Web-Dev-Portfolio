@@ -14,6 +14,11 @@ import ContactPage from './pages/contact_page.js';
 import Footer from './footer/footer.js'
 
 export default class Page extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {page: "home"};
+  }
+
   static getDerivedStateFromProps(props) {
     return {page: props.page };
   }
@@ -32,16 +37,16 @@ export default class Page extends React.Component {
 function render_url_matched_page(page) {
   switch (page) {
     case "about":
-      return <AboutPage page={page}/>;
+      return <AboutPage />;
     case "skills":
-      return <SkillsPage page={page}/>;
+      return <SkillsPage />;
     case "projects":
-      return <ProjectsPage page={page}/>;
+      return <ProjectsPage />;
     case "blog":
-      return <BlogPage page={page}/>;
+      return <BlogPage />;
     case "contact":
-      return <ContactPage page={page}/>;
+      return <ContactPage />;
     default:
-      return <HomePage page={page}/>;
+      return <HomePage />;
   }
 }
