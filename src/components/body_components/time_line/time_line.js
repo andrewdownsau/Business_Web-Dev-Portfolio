@@ -61,7 +61,8 @@ function generate_history_cards(columns, content){
           key={"history_card" + index} 
           id={"history_card" + index} 
           visibility="visible"
-          text_visibility="hidden"
+          text_display="none"
+          line_displayed={1}
           content={content[index]}/>)
     }
     else if(columns === 2) {
@@ -71,6 +72,7 @@ function generate_history_cards(columns, content){
             key={"history_card" + index} 
             id={"history_card" + index} 
             visibility={check_visibility(index, column_index)}
+            line_displayed={column_index}
             content={content[index]}/>)
       }
     }

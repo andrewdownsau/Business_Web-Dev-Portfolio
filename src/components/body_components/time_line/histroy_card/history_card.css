@@ -1,8 +1,16 @@
 .history_card {
-  margin: 10px;
-  width: 75%;
-  max-width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.card_segment {
   text-align: left;
+  max-width: 400px;
+}
+
+.card_segment:hover {
+  font-size: 1.2em;
+  cursor: pointer;
 }
 
 .history_card_icon {
@@ -21,4 +29,24 @@
 .history_card_title {
   display: inline-block;
   width: calc(100% - 60px);
+}
+
+.card_line {
+  height: 100%;
+  width: 100px;
+}
+
+/* Mobile/Tablet screen display styles */
+@media only screen and (max-width: 800px) {
+  .card_segment {
+    margin-bottom: 50px;
+  }
+  .card_line {
+    margin: 20px 2px;
+    width: 50px;
+  }
+  .history_card {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
