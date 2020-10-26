@@ -37,5 +37,5 @@ export default class HistoryCard extends React.Component {
 }
 
 function generate_heading_rule(rule_side, line_displayed){
-  if(rule_side == line_displayed) { return <hr class="card_line"/>}
+  if(rule_side === line_displayed) { return <hr class="card_line"/>}
 }
