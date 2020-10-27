@@ -8,13 +8,20 @@ export default class PageText extends React.Component {
   }
 
   static getDerivedStateFromProps(props) {
-    return {content: props.content };
+    return {
+      id: props.id,
+      display: props.display,
+      content: props.content 
+    };
   }
 
   render() {
     return (
-      <p className={this.state.className}>
-        {this.state.content}
+      <p 
+        id={this.state.id} 
+        className={this.state.className} 
+        style={{display: this.state.display}}>
+          {this.state.content}
       </p>
     );
   }

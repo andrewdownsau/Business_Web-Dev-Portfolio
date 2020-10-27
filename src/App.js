@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Page from './components/page.js'
 import Pages from './components/pages.json';
+import Skills from './components/pages/skills/skills.json';
 import {
   Switch,
   Route,
@@ -24,7 +25,14 @@ export default function App() {
 
 function generate_route_arr() {
   const route_arr = [];
-  for(var index=0; index < Pages.length; index++){
+  for(let index=0; index < Skills.length; index++){
+    route_arr.push(
+      <Route key={index + "_skill_route"} path={'/skills/' + index}>
+        <Page key={index + "_skill_page"} page={"skill"} index={index}/>
+      </Route>
+    )
+  }
+  for(let index=0; index < Pages.length; index++){
     route_arr.push(
       <Route key={Pages[index] + "_route"} path={'/' + Pages[index]}>
         <Page key={Pages[index] + "_page"} page={Pages[index]}/>

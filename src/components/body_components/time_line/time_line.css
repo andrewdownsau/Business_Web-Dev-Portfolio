@@ -4,6 +4,25 @@
   vertical-align: text-top;
 }
 
-#tl_right_column {
+#tl_right_column, #time_line_partial {
   border-left: 2px solid white;
+}
+
+#time_line_partial {
+  width: 30%;
+  margin: 20px 10px;
+}
+
+#skill_content {
+  width: 70%;
+}
+
+/* Mobile and Tablet screen sizes styling */
+@media only screen and (max-width: 800px) {
+  #time_line_partial {
+    display: none;
+  }
+  #skill_content {
+    width: 100%;
+  }
 }

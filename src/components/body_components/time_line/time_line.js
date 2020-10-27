@@ -1,5 +1,5 @@
 import React from 'react';
-import HistoryCard from './histroy_card/history_card.js';
+import HistoryCard from './history_card/history_card.js';
 import './time_line.css';
 
 export default class TimeLine extends React.Component {
@@ -9,28 +9,26 @@ export default class TimeLine extends React.Component {
       id: "time_line",
       columns: 2
     };
+    if(window.innerWidth <= 800) {this.state.columns = 1}
+    this.updateDimensions_timeline = this.updateDimensions_timeline.bind(this);
   }
 
-  updateDimensions() {
-    if(window.innerWidth <= 800) {
-      this.setState({ columns: 1 });
-    }
-    else {
-      this.setState({ columns: 2 });
-    }
+  updateDimensions_timeline() {
+    let columns_displayed = 2;
+    if(window.innerWidth <= 800) {columns_displayed = 1}
+    this.setState({ columns: columns_displayed });
   }
 
   componentDidMount() {
-    this.updateDimensions();
-    window.addEventListener("resize", this.updateDimensions.bind(this));
+    window.addEventListener("resize", this.updateDimensions_timeline);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateDimensions.bind(this));
+    window.removeEventListener("resize", this.updateDimensions_timeline);
   }
 
   static getDerivedStateFromProps(props) {
-    return {content: props.content };
+    return { content: props.content };
   }
 
   render() {
@@ -51,9 +49,8 @@ export default class TimeLine extends React.Component {
   }
 }
 
-function generate_history_cards(columns, content){
+export function generate_history_cards(columns, content){
   const history_card_arr = [[],[]];
-  // let history_card_props = {key: };
   for(let index=0; index < content.length; index++) {
     if(columns === 1){
       history_card_arr[1].push(
@@ -73,7 +70,7 @@ function generate_history_cards(columns, content){
             id={"history_card" + index} 
             visibility={check_visibility(index, column_index)}
             line_displayed={column_index}
-            content={content[index]}/>)
+            content={content[index]}/>);
       }
     }
   }
@@ -88,7 +85,7 @@ function check_visibility(index, remainder){
   return visibility;
 }
 
-function check_width(){
+export function check_width(){
   if(window.innerWidth <= 800) {
     return "90%";
   }

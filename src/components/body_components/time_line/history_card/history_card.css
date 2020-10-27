@@ -5,6 +5,8 @@
 
 .card_segment {
   text-align: left;
+  color: white;
+  text-decoration: none;
   max-width: 400px;
 }
 
@@ -21,6 +23,14 @@
   padding: 5px;
 }
 
+.large_icon {
+  font-size: 300%;
+  height: 110px;
+  width: 70px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
 .history_card_title, .history_card_text {
   margin: 0px;
   padding: 5px;
@@ -35,6 +45,19 @@
   height: 100%;
   width: 100px;
 }
+
+#time_line_partial .card_segment{
+  margin-bottom: 50px;
+}
+#time_line_partial  .card_line {
+  margin: 20px 2px;
+  width: 50px;
+}
+#time_line_partial .history_card {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 
 /* Mobile/Tablet screen display styles */
 @media only screen and (max-width: 800px) {

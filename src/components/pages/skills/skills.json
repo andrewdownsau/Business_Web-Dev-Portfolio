@@ -1,0 +1,32 @@
+[
+  {
+    "card_icon_class": "fa fa-file-code-o",
+    "card_title": "2020 Coder Academy Boot-camp",
+    "card_text": "Fast-track web development coding course designed to qualify me for full stack development",
+    "detailed_text": "Coder Academy. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
+  },
+  {
+    "card_icon_class": "fa fa-train",
+    "card_title": "2018 Railway Signalling Cadetship (John Holland)",
+    "card_text": "Cadetship program coordinated by LXRA to up-skill electrical engineers to railway signalling engineer",
+    "detailed_text": "John holland. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
+  },
+  {
+    "card_icon_class": "fa fa-bolt",
+    "card_title": "2017 Electrical Eng BA (RMIT)",
+    "card_text": "4-year Electrical/electronic engineering bachelor degree with first class honors",
+    "detailed_text": "RMIT. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
+  },
+  {
+    "card_icon_class": "fa fa-star",
+    "card_title": "2014 Comedy Producer Assistant",
+    "card_text": "Assistant to general manager of comedy production/management company (Independent Artists)",
+    "detailed_text": "Independant artists. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
+  },
+  {
+    "card_icon_class": "fa fa-graduation-cap",
+    "card_title": "2012 In2Science Mentoring (RMIT)",
+    "card_text": "RMIT sponsored mentorship program connecting teaching aid volunteers to secondary schools in Melbourne",
+    "detailed_text": "Mentorship program In2Science. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
+  }
+]
