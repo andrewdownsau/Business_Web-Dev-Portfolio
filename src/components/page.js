@@ -8,7 +8,7 @@ import HomePage from './pages/home_page.js';
 import AboutPage from './pages/about_page.js';
 import SkillsPage from './pages/skills/skills_page.js';
 import SkillPage from './pages/skills/skill_page.js';
-import ProjectsPage from './pages/projects_page.js';
+import ProjectsPage from './pages/projects/projects_page.js';
 import BlogPage from './pages/blog_page.js';
 import ContactPage from './pages/contact_page.js';
 
