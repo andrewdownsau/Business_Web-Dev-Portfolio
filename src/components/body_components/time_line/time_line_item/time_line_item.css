@@ -1,21 +1,21 @@
-.history_card {
+.time_line_item {
   display: flex;
   align-items: center;
 }
 
-.card_segment {
+.tl_item_segment {
   text-align: left;
   color: white;
   text-decoration: none;
   max-width: 400px;
 }
 
-.card_segment:hover {
+.tl_item_segment:hover {
   font-size: 1.2em;
   cursor: pointer;
 }
 
-.history_card_icon {
+.time_line_item_icon {
   float: left;
   font-size: 200%;
   height: 40px;
@@ -31,29 +31,29 @@
   box-sizing: border-box;
 }
 
-.history_card_title, .history_card_text {
+.time_line_item_title, .time_line_item_text {
   margin: 0px;
   padding: 5px;
 }
 
-.history_card_title {
+.time_line_item_title {
   display: inline-block;
   width: calc(100% - 60px);
 }
 
-.card_line {
+.tl_item_line {
   height: 100%;
   width: 100px;
 }
 
-#time_line_partial .card_segment{
+#time_line_partial .tl_item_segment{
   margin-bottom: 50px;
 }
-#time_line_partial  .card_line {
+#time_line_partial  .tl_item_line {
   margin: 20px 2px;
   width: 50px;
 }
-#time_line_partial .history_card {
+#time_line_partial .time_line_item {
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -61,14 +61,14 @@
 
 /* Mobile/Tablet screen display styles */
 @media only screen and (max-width: 800px) {
-  .card_segment {
+  .tl_item_segment {
     margin-bottom: 50px;
   }
-  .card_line {
+  .tl_item_line {
     margin: 20px 2px;
     width: 50px;
   }
-  .history_card {
+  .time_line_item {
     align-items: flex-start;
     justify-content: flex-start;
   }

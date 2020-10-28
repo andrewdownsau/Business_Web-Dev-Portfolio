@@ -24,8 +24,8 @@ export default class SkillPage extends React.Component {
       <section id={"skill_page"}>
         <TimeLinePartial content={Skills} />
         <section id="skill_content">
-          <i className={Skills[this.state.index].card_icon_class + " history_card_icon large_icon"}></i>
-          <PageTitle content={Skills[this.state.index].card_title} />
+          <i className={Skills[this.state.index].tl_item_icon_class + " time_line_item_icon large_icon"}></i>
+          <PageTitle content={Skills[this.state.index].tl_item_title} />
           <PageText content={Skills[this.state.index].detailed_text} />
         </section>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {generate_history_cards} from './time_line.js';
+import {generate_time_line_items} from './time_line.js';
 import './time_line.css';
 
 export default class TimeLinePartial extends React.Component {
@@ -18,11 +18,11 @@ export default class TimeLinePartial extends React.Component {
   }
 
   render() {
-    const history_card_arr = generate_history_cards(this.state.columns, this.state.content);
+    const time_line_item_arr = generate_time_line_items(this.state.columns, this.state.content);
     
     return (
       <section id={this.state.id} >
-        {history_card_arr[1]}
+        {time_line_item_arr[1]}
       </section>
     );
   }

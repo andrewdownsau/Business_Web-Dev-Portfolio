@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './history_card.css';
+import './time_line_item.css';
 
-export default class HistoryCard extends React.Component {
+export default class TimeLineItem extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {className: "history_card"};
+    this.state = {className: "time_line_item"};
   }
 
   static getDerivedStateFromProps(props) {
@@ -25,10 +25,10 @@ export default class HistoryCard extends React.Component {
         className={this.state.className} 
         style={{visibility: this.state.visibility}}>
         {generate_heading_rule(1, this.state.line_displayed)}
-        <Link id={this.state.id} className="card_segment" to={"/skills/" + skills_link_id}>
-          <i className={this.state.content.card_icon_class + " history_card_icon"}></i>
-          <h3 className="history_card_title">{this.state.content.card_title}</h3>
-          <p className="history_card_text" style={{ display: this.state.text_display}}>{this.state.content.card_text}</p>
+        <Link id={this.state.id} className="tl_item_segment" to={"/skills/" + skills_link_id}>
+          <i className={this.state.content.tl_item_icon_class + " time_line_item_icon"}></i>
+          <h3 className="time_line_item_title">{this.state.content.tl_item_title}</h3>
+          <p className="time_line_item_text" style={{ display: this.state.text_display}}>{this.state.content.tl_item_text}</p>
         </Link>
         {generate_heading_rule(0, this.state.line_displayed)}
       </section>
@@ -37,5 +37,5 @@ export default class HistoryCard extends React.Component {
 }
 
 function generate_heading_rule(rule_side, line_displayed){
-  if(rule_side === line_displayed) { return <hr className="card_line"/>}
+  if(rule_side === line_displayed) { return <hr className="tl_item_line"/>}
 }
