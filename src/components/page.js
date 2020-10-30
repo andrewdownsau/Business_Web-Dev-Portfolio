@@ -9,7 +9,8 @@ import AboutPage from './pages/about_page.js';
 import SkillsPage from './pages/skills/skills_page.js';
 import SkillPage from './pages/skills/skill_page.js';
 import ProjectsPage from './pages/projects/projects_page.js';
-import BlogPage from './pages/blogs/blog_page.js';
+import BlogPageMap from './pages/blogs/blog_page_map.js';
+import BlogPageList from './pages/blogs/blog_page_list.js';
 import ContactPage from './pages/contact_page.js';
 
 import Footer from './footer/footer.js'
@@ -48,8 +49,10 @@ function render_url_matched_page(page, index) {
         return <SkillPage index={index}/>;
     case "projects":
       return <ProjectsPage />;
-    case "blog":
-      return <BlogPage />;
+    case "blog_map":
+      return <BlogPageMap />;
+    case "blog_list":
+      return <BlogPageList />;
     case "contact":
       return <ContactPage />;
     default:

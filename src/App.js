@@ -15,6 +15,9 @@ export default function App() {
     <div key="portfolio_app" className="App">
       <Switch>
         {generate_route_arr()}
+        <Route path= '/blog'> {/* Redirect to map by default for blog archive*/}
+          <Redirect to="/blog/map" />
+        </Route>
         <Route path= '/'> {/* Redirect to home so that nav link registers as active */}
           <Redirect to="/home" />
         </Route>
@@ -25,19 +28,32 @@ export default function App() {
 
 function generate_route_arr() {
   const route_arr = [];
+  route_arr.push(
+    <Route key={"blog_route_map"} path={'/blog/map'}>
+      <Page key={"blog_page_map"} page={"blog_map"}/>
+    </Route>
+  )
+  route_arr.push(
+    <Route key={"blog_route_list"} path={'/blog/list'}>
+      <Page key={"blog_page_list"} page={"blog_list"}/>
+    </Route>
+  )
   for(let index=0; index < Skills.length; index++){
     route_arr.push(
-      <Route key={index + "_skill_route"} path={'/skills/' + index}>
-        <Page key={index + "_skill_page"} page={"skill"} index={index}/>
+      <Route key={"skill_route_" + index} path={'/skills/' + index}>
+        <Page key={"skill_page_" + index} page={"skill"} index={index}/>
       </Route>
     )
   }
   for(let index=0; index < Pages.length; index++){
-    route_arr.push(
-      <Route key={Pages[index] + "_route"} path={'/' + Pages[index]}>
-        <Page key={Pages[index] + "_page"} page={Pages[index]}/>
-      </Route>
-    )
+    if(Pages[index] !== "blog") {
+      route_arr.push(
+        <Route key={Pages[index] + "_route"} path={'/' + Pages[index]}>
+          <Page key={Pages[index] + "_page"} page={Pages[index]}/>
+        </Route>
+      )
+    }
+    
   }
   return route_arr;
 }
