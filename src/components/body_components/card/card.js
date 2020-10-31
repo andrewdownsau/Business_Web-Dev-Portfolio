@@ -19,8 +19,8 @@ export default class Card extends React.Component {
       <section className={this.state.className}>
         <img
           className= "card_image"
-          alt= "Me sitting at a tree with laptop"
-          src= "/images/body/title_image2.svg" />
+          alt= {this.state.content.card_image.alt}
+          src= {this.state.content.card_image.src} />
         <h1 className="card_title">{this.state.content.card_title}</h1>
         <p className="card_summary">
         {this.state.content.card_text}
