@@ -1,0 +1,27 @@
+[
+  {
+    "category_icon_class": "fa fa-paint-brush",
+    "category_title": "art"
+  },
+  {
+    "category_icon_class": "fa fa-money",
+    "category_title": "economics"
+  },
+  {
+    "category_icon_class": "fa fa-mobile",
+    "category_title": "electronics"
+  },
+  {
+    "category_icon_class": "fa fa-heartbeat",
+    "category_title": "health"
+  },
+  {
+    "category_icon_class": "fa fa-book",
+    "category_title": "language"
+  },
+  {
+    "category_icon_class": "fa fa-circle-o",
+    "category_title": "philosophy"
+  }
+  
+]

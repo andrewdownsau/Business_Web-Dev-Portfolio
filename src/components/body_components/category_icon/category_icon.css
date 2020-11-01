@@ -1,0 +1,23 @@
+.category_icon {
+  display: inline-block;
+}
+
+.category_icon a {
+  display: inline-block;
+  width: 120px;
+  height: 100px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.category_icon_title {
+  margin: 0px;
+}
+
+.category_icon_icon {
+  font-size: 60px;
+}

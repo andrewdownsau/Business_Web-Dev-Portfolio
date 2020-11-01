@@ -1,9 +1,11 @@
-/* #blog_page_content .page_title, #map_list_switch {
-  display: inline-block;
-} */
-
 #blog_title_area {
   display: flex;
+}
+
+#blog_body_area {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #map_list_switch {
