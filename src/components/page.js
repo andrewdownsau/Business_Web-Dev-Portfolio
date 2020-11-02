@@ -10,6 +10,7 @@ import SkillsPage from './pages/skills/skills_page.js';
 import SkillPage from './pages/skills/skill_page.js';
 import ProjectsPage from './pages/projects/projects_page.js';
 import BlogPageMap from './pages/blogs/blog_page_map.js';
+import BlogMapSubPage from './pages/blogs/blog_map_sub_page.js';
 import BlogPageList from './pages/blogs/blog_page_list.js';
 import ContactPage from './pages/contact_page.js';
 
@@ -45,12 +46,14 @@ function render_url_matched_page(page, index) {
       return <AboutPage />;
     case "skills":
       return <SkillsPage />;
-      case "skill":
-        return <SkillPage index={index}/>;
+    case "skill":
+      return <SkillPage index={index}/>;
     case "projects":
       return <ProjectsPage />;
     case "blog_map":
-      return <BlogPageMap />;
+      return <BlogPageMap/>;
+    case "blog_map_sub_page":
+      return <BlogMapSubPage index={index}/>
     case "blog_list":
       return <BlogPageList />;
     case "contact":
