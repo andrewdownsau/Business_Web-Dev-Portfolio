@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The nature of understanding",
+    "category": ["philosophy"],
+    "images": "To be added",
+    "subtitle": "How do we know that we understand? What does it mean to have meaning?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 2,
+    "title": "Objective reality",
+    "category": ["philosophy"],
+    "images": "To be added",
+    "subtitle": "Everything we know is known through our perception, is there an objective reality?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 3,
+    "title": "Speaking before reading",
+    "category": ["language"],
+    "images": "To be added",
+    "subtitle": "Human babies understand language first through speaking and reading, this should be applied to adults learning a new language",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 4,
+    "title": "Language and thought",
+    "category": ["language", "philosophy"],
+    "images": "To be added",
+    "subtitle": "How do the words we know map onto the concepts of our lives? Can we limit our thoughts through language?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 5,
+    "title": "Legal Currency",
+    "category": ["economics"],
+    "images": "To be added",
+    "subtitle": "Why does money exist, what does it represent?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 6,
+    "title": "The value of want",
+    "category": ["economics","philosophy"],
+    "images": "To be added",
+    "subtitle": "There are a number of material needs in life, value is often defined through a balance of needs and wants.",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 7,
+    "title": "Aesthetics and ergonomics of modern technology",
+    "category": ["electronics", "art"],
+    "images": "To be added",
+    "subtitle": "How do we define what is good design. Tech is used by everyone so much be both usable and beautiful",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 8,
+    "title": "Is a smart watch worth it?",
+    "category": ["electronics", "health", "economics"],
+    "images": "To be added",
+    "subtitle": "Health is something everyone needs to be concerned by, but do devices help or hinder self-care?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 9,
+    "title": "Causes of heartburn",
+    "category": ["health"],
+    "images": "To be added",
+    "subtitle": "Lately I've been suffering from heartburn when I'm asleep. Need to know what causes it and preventions",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 10,
+    "title": "The nature of understanding",
+    "category": "philosophy",
+    "images": "To be added",
+    "subtitle": "How do we know that we understand? What does it mean to have meaning?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 11,
+    "title": "Expression of interest",
+    "category": ["philosophy", "art"],
+    "images": "To be added",
+    "subtitle": "How do we connect ourselves to art, why do have interest in expression?",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  },
+  {
+    "id": 12,
+    "title": "Developing technology projects",
+    "category": ["electronics"],
+    "images": "To be added",
+    "subtitle": "Just a run through of the project ideas I've had over the years",
+    "text_content": "To Be added",
+    "date_created": "2/11/2020",
+    "date_last_updated": "2/11/2020"
+  }
+]
