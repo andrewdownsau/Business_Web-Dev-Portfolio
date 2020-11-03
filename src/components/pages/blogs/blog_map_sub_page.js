@@ -4,7 +4,7 @@ import CategoryIcon from '../../general/body_components/category_icon/category_i
 import BlogCategories from './blog_categories.json';
 import Blogs from './blog_archive.json';
 import BlogTitleArea from './blog_title_area/blog_title_area';
-import './blog_page.css'
+import '../styles/blog_page.css'
 
 export default class BlogMapSubPage extends React.Component {
   constructor(props) {

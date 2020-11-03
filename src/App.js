@@ -34,7 +34,7 @@ function generate_route_arr() {
     // console.log(blog_category)
     route_arr.push(
       <Route key={"blog_route_map_" + blog_category} path={'/blog/map/' + blog_category}>
-        <Page key={"blog_page_map_" + blog_category} page={"blog_map_sub_page"} index={blog_category}/>
+        <Page key={"blog_page_map_" + blog_category} page={"blog_map"} index={blog_category}/>
       </Route>
     )
   }

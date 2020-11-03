@@ -51,7 +51,7 @@ function render_url_matched_page(page, index) {
     case "projects":
       return <ProjectsPage />;
     case "blog_map":
-      return <BlogPageMap/>;
+      return <BlogPageMap index={index}/>;
     case "blog_map_sub_page":
       return <BlogMapSubPage index={index}/>
     case "blog_list":
