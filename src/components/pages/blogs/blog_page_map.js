@@ -1,7 +1,9 @@
 import React from 'react';
 import BlogTitleArea from './blog_title_area/blog_title_area';
+import Card from '../../general/body_components/card/card.js';
 import CategoryIcon from '../../general/body_components/category_icon/category_icon.js';
 import BlogCategories from './blog_categories.json';
+import Blogs from './blog_archive.json';
 import '../styles/blog_page.css'
 
 export default class BlogPageMap extends React.Component {
@@ -22,6 +24,7 @@ export default class BlogPageMap extends React.Component {
         <BlogTitleArea mode="map"/>
         <section id="blog_body_area">
           {generate_categories(this.state.category)}
+          {generate_blog_cards(this.state.category)}
         </section>
       </section>
     );
@@ -43,4 +46,20 @@ function generate_categories(category) {
       style_state={style_state} />);
   }
   return category_arr;
+}
+
+function generate_blog_cards(category) {
+  const blog_card_arr = []
+  if(category) {
+    for(var index=0; index < Blogs.length; index++){
+      if(Blogs[index].category.includes(category)) { 
+        blog_card_arr.push( 
+          <Card 
+            key={"blog_article_card_" + index} 
+            id={"blog_article_card_" + index}
+            content={Blogs[index]}/>);
+      }
+    }
+  }
+  return blog_card_arr;
 }
