@@ -1,52 +1,52 @@
 [
   {
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "Me sitting at a tree with laptop",
       "src": "/images/body/title_image2.svg"
-    },
-    "card_title": "2020 React App Web Profile",
-    "card_text": "Improved, restyled responsive website written in React javascript to show my skills and interests",
+    }],
+    "title": "2020 React App Web Profile",
+    "subtitle": "Improved, restyled responsive website written in React javascript to show my skills and interests",
     "detailed_text": "React Web Portfolio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
   },
   {
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "Thief game sack of coins",
       "src": "/images/body/thief_game_image.svg"
-    },
-    "card_title": "2020 Thief Terminal Application",
-    "card_text": "Recreation of fun hot dice game: Thief in a terminal application",
+    }],
+    "title": "2020 Thief Terminal Application",
+    "subtitle": "Recreation of fun hot dice game: Thief in a terminal application",
     "detailed_text": "Thief game. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
   },
   {
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_title": "2020 HTML Pairs Game",
-    "card_text": "Simple Card Pairs game written in HTML, CSS and JS",
+    }],
+    "title": "2020 HTML Pairs Game",
+    "subtitle": "Simple Card Pairs game written in HTML, CSS and JS",
     "detailed_text": "HTML Pairs game. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
   },
   {
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "Database symbol",
       "src": "/images/body/database_symbol_image.svg"
-    },
-    "card_title": "2014 Excel Transaction database",
-    "card_text": "A system in excel that sorted bank transaction data into useful tracking info",
+    }],
+    "title": "2014 Excel Transaction database",
+    "subtitle": "A system in excel that sorted bank transaction data into useful tracking info",
     "detailed_text": "Excel Transactions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
   },
   {
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "Database symbol",
       "src": "/images/body/database_symbol_image.svg"
-    },
-    "card_title": "2010 MATLAB database",
-    "card_text": "Outstanding customer form submission database written in MATLAB",
+    }],
+    "title": "2010 MATLAB database",
+    "subtitle": "Outstanding customer form submission database written in MATLAB",
     "detailed_text": "MATLAB database. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non leo metus. Sed consectetur ante vitae magna facilisis rhoncus. Nullam eget vulputate ipsum. Morbi nisl odio, rutrum at viverra ut, fermentum vel enim. Suspendisse ut viverra dolor. In hac habitasse platea dictumst. In accumsan laoreet lacus sit amet placerat. Praesent nulla urna, placerat maximus risus placerat, aliquam pulvinar nunc. Fusce non velit erat. Etiam non elementum nibh, ut ultricies orci. Proin eu nisi sollicitudin, varius sem nec, rutrum enim."
   }
 ]

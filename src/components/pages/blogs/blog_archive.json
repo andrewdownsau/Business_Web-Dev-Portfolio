@@ -1,168 +1,168 @@
 [
   {
     "id": 1,
-    "card_title": "The nature of understanding",
+    "title": "The nature of understanding",
     "category": ["philosophy"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "How do we know that we understand? What does it mean to have meaning?",
+    }],
+    "subtitle": "How do we know that we understand? What does it mean to have meaning?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 2,
-    "card_title": "Objective reality",
+    "title": "Objective reality",
     "category": ["philosophy"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Everything we know is known through our perception, is there an objective reality?",
+    }],
+    "subtitle": "Everything we know is known through our perception, is there an objective reality?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 3,
-    "card_title": "Speaking before reading",
+    "title": "Speaking before reading",
     "category": ["language"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Human babies understand language first through speaking and reading, this should be applied to adults learning a new language",
+    }],
+    "subtitle": "Human babies understand language first through speaking and reading, this should be applied to adults learning a new language",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 4,
-    "card_title": "Language and thought",
+    "title": "Language and thought",
     "category": ["language", "philosophy"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "How do the words we know map onto the concepts of our lives? Can we limit our thoughts through language?",
+    }],
+    "subtitle": "How do the words we know map onto the concepts of our lives? Can we limit our thoughts through language?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 5,
-    "card_title": "Legal Currency",
+    "title": "Legal Currency",
     "category": ["economics"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Why does money exist, what does it represent?",
+    }],
+    "subtitle": "Why does money exist, what does it represent?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 6,
-    "card_title": "The value of want",
+    "title": "The value of want",
     "category": ["economics","philosophy"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "There are a number of material needs in life, value is often defined through a balance of needs and wants.",
+    }],
+    "subtitle": "There are a number of material needs in life, value is often defined through a balance of needs and wants.",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 7,
-    "card_title": "Aesthetics and ergonomics of modern technology",
+    "title": "Aesthetics and ergonomics of modern technology",
     "category": ["electronics", "art"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "How do we define what is good design. Tech is used by everyone so much be both usable and beautiful",
+    }],
+    "subtitle": "How do we define what is good design. Tech is used by everyone so much be both usable and beautiful",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 8,
-    "card_title": "Is a smart watch worth it?",
+    "title": "Is a smart watch worth it?",
     "category": ["electronics", "health", "economics"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Health is something everyone needs to be concerned by, but do devices help or hinder self-care?",
+    }],
+    "subtitle": "Health is something everyone needs to be concerned by, but do devices help or hinder self-care?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 9,
-    "card_title": "Causes of heartburn",
+    "title": "Causes of heartburn",
     "category": ["health"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Lately I've been suffering from heartburn when I'm asleep. Need to know what causes it and preventions",
+    }],
+    "subtitle": "Lately I've been suffering from heartburn when I'm asleep. Need to know what causes it and preventions",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 10,
-    "card_title": "The nature of understanding",
+    "title": "The nature of understanding",
     "category": "philosophy",
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "How do we know that we understand? What does it mean to have meaning?",
+    }],
+    "subtitle": "How do we know that we understand? What does it mean to have meaning?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 11,
-    "card_title": "Expression of interest",
+    "title": "Expression of interest",
     "category": ["philosophy", "art"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "How do we connect ourselves to art, why do have interest in expression?",
+    }],
+    "subtitle": "How do we connect ourselves to art, why do have interest in expression?",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
   },
   {
     "id": 12,
-    "card_title": "Developing technology projects",
+    "title": "Developing technology projects",
     "category": ["electronics"],
-    "card_image": {
+    "images": [{
       "className": "card_image",
       "alt": "HTML pairs game card with flames on back",
       "src": "/images/body/HTML_pairs_game_image.svg"
-    },
-    "card_text": "Just a run through of the project ideas I've had over the years",
+    }],
+    "subtitle": "Just a run through of the project ideas I've had over the years",
     "text_content": "To Be added",
     "date_created": "2/11/2020",
     "date_last_updated": "2/11/2020"
