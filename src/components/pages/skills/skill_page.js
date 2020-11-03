@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/skill_page.css'
-import PageTitle from '../../body_components/page_title/page_title.js';
-import PageText from '../../body_components/page_text/page_text.js';
-import TimeLinePartial from '../../body_components/time_line/time_line_partial.js';
+import PageTitle from '../../general/body_components/page_title/page_title.js';
+import PageText from '../../general/body_components/page_text/page_text.js';
+import TimeLinePartial from '../../general/body_components/time_line/time_line_partial.js';
 import Skills from './skills.json';
 
 export default class SkillPage extends React.Component {

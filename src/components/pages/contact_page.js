@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTitle from '../body_components/page_title/page_title.js';
+import PageTitle from '../general/body_components/page_title/page_title.js';
 
 export default class ContactPage extends React.Component {
   static getDerivedStateFromProps(props) {

@@ -1,6 +1,6 @@
 import React from 'react';
-import BlogTitleArea from '../../body_components/blog_title_area/blog_title_area.js';
-import CategoryIcon from '../../body_components/category_icon/category_icon.js';
+import BlogTitleArea from './blog_title_area/blog_title_area';
+import CategoryIcon from '../../general/body_components/category_icon/category_icon.js';
 import BlogCategories from './blog_categories.json';
 import './blog_page.css'
 

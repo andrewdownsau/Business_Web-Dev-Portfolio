@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/home_page.css';
-import PageTitle from '../body_components/page_title/page_title.js';
-import PageText from '../body_components/page_text/page_text.js';
+import PageTitle from '../general/body_components/page_title/page_title.js';
+import PageText from '../general/body_components/page_text/page_text.js';
 
 export default class HomePage extends React.Component {
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
-import PageTitle from '../../body_components/page_title/page_title.js';
-import Card from '../../body_components/card/card.js';
+import PageTitle from '../../general/body_components/page_title/page_title.js';
+import Card from '../../general/body_components/card/card.js';
 import Projects from './projects.json';
 
 export default class ProjectsPage extends React.Component {

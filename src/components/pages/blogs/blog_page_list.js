@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogTitleArea from '../../body_components/blog_title_area/blog_title_area.js';
+import BlogTitleArea from './blog_title_area/blog_title_area';
 import './blog_page.css'
 
 export default class BlogPageList extends React.Component {

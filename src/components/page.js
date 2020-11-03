@@ -1,5 +1,5 @@
 import React from 'react';
-import TopNav from './top_nav/top_nav.js'
+import TopNav from './general/top_nav/top_nav.js'
 
 // Page main components render depending on page set by the URL.
 // To add new pages you must create a new page js file and add it
@@ -14,7 +14,7 @@ import BlogMapSubPage from './pages/blogs/blog_map_sub_page.js';
 import BlogPageList from './pages/blogs/blog_page_list.js';
 import ContactPage from './pages/contact_page.js';
 
-import Footer from './footer/footer.js'
+import Footer from './general/footer/footer.js'
 
 export default class Page extends React.Component {
   constructor(props) {

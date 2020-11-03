@@ -1,6 +1,6 @@
 import React from 'react';
-import PageTitle from '../../body_components/page_title/page_title.js';
-import TimeLine from '../../body_components/time_line/time_line.js';
+import PageTitle from '../../general/body_components/page_title/page_title.js';
+import TimeLine from '../../general/body_components/time_line/time_line.js';
 import Skills from './skills.json';
 
 export default class SkillsPage extends React.Component {

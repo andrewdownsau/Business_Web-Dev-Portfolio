@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from '../../body_components/card/card.js';
-import CategoryIcon from '../../body_components/category_icon/category_icon.js';
+import Card from '../../general/body_components/card/card.js';
+import CategoryIcon from '../../general/body_components/category_icon/category_icon.js';
 import BlogCategories from './blog_categories.json';
 import Blogs from './blog_archive.json';
-import BlogTitleArea from '../../body_components/blog_title_area/blog_title_area.js';
+import BlogTitleArea from './blog_title_area/blog_title_area';
 import './blog_page.css'
 
 export default class BlogMapSubPage extends React.Component {

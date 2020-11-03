@@ -1,6 +1,6 @@
 import React from 'react';
 import './page_link_section.css';
-import Pages from '../../pages.json';
+import Pages from '../../../pages.json';
 import Externals from '../external_links_section/external_links.json';
 import PageLink from './page_link/page_link.js';
 
