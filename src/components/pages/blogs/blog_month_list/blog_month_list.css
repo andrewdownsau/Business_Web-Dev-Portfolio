@@ -1,0 +1,40 @@
+
+.blog_list_area {
+  text-align: left;
+  vertical-align: text-top;
+  display: inline-block;
+  margin: 10px;
+}
+
+.blog_list_area h1 {
+  margin: 0px;
+  font-size: 32px;
+}
+
+.blog_list_area li {
+  font-size: 18px;
+}
+
+/* Narrow screen style */
+@media only screen and (max-width: 800px) {
+  .blog_list_area h1 {
+    font-size: 4vw;
+  }
+  .blog_list_area li {
+    font-size: 2.25vw;
+  }
+}
+
+/* Very narrow screen style */
+@media only screen and (max-width: 700px) {
+  .blog_list_area li {
+    font-size: 16px;
+  }
+}
+
+/* Very narrow screen style */
+@media only screen and (max-width: 600px) {
+  .blog_list_area h1 {
+    font-size: 24px;
+  }
+}

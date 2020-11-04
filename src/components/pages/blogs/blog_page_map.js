@@ -22,8 +22,10 @@ export default class BlogPageMap extends React.Component {
     return (
       <section id={"blog_page_content"}>
         <BlogTitleArea mode="map"/>
-        <section id="blog_body_area">
+        <section id="blog_category_area">
           {generate_categories(this.state.category)}
+        </section>
+        <section id="blog_cards_area">
           {generate_blog_cards(this.state.category)}
         </section>
       </section>

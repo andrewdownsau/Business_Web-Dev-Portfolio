@@ -10,8 +10,8 @@
     }],
     "subtitle": "How do we know that we understand? What does it mean to have meaning?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "12-10-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 2,
@@ -24,8 +24,8 @@
     }],
     "subtitle": "Everything we know is known through our perception, is there an objective reality?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "02-10-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 3,
@@ -38,8 +38,8 @@
     }],
     "subtitle": "Human babies understand language first through speaking and reading, this should be applied to adults learning a new language",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "22-10-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 4,
@@ -52,8 +52,8 @@
     }],
     "subtitle": "How do the words we know map onto the concepts of our lives? Can we limit our thoughts through language?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "02-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 5,
@@ -66,8 +66,8 @@
     }],
     "subtitle": "Why does money exist, what does it represent?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "02-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 6,
@@ -80,12 +80,12 @@
     }],
     "subtitle": "There are a number of material needs in life, value is often defined through a balance of needs and wants.",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "02-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 7,
-    "title": "Aesthetics and ergonomics of modern technology",
+    "title": "Aesthetics of modern technology",
     "category": ["electronics", "art"],
     "images": [{
       "className": "card_image",
@@ -94,8 +94,8 @@
     }],
     "subtitle": "How do we define what is good design. Tech is used by everyone so much be both usable and beautiful",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "10-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 8,
@@ -108,8 +108,8 @@
     }],
     "subtitle": "Health is something everyone needs to be concerned by, but do devices help or hinder self-care?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "30-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 9,
@@ -122,8 +122,8 @@
     }],
     "subtitle": "Lately I've been suffering from heartburn when I'm asleep. Need to know what causes it and preventions",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "02-11-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 10,
@@ -136,8 +136,8 @@
     }],
     "subtitle": "How do we know that we understand? What does it mean to have meaning?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "24-09-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 11,
@@ -150,8 +150,8 @@
     }],
     "subtitle": "How do we connect ourselves to art, why do have interest in expression?",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "25-09-2020",
+    "date_last_updated": "02-11-2020"
   },
   {
     "id": 12,
@@ -164,7 +164,7 @@
     }],
     "subtitle": "Just a run through of the project ideas I've had over the years",
     "text_content": "To Be added",
-    "date_created": "2/11/2020",
-    "date_last_updated": "2/11/2020"
+    "date_created": "14-08-2020",
+    "date_last_updated": "02-11-2020"
   }
 ]
