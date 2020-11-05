@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './card.css';
 
 export default class Card extends React.Component {
@@ -10,22 +11,24 @@ export default class Card extends React.Component {
   static getDerivedStateFromProps(props) {
     return {
       id: props.id,
-      content: props.content 
+      content: props.content,
+      url: props.url
     };
   }
 
   render() {
     return (
-      <section className={this.state.className}>
-        <img
-          className= "card_image"
-          alt= {this.state.content.images[0].alt}
-          src= {this.state.content.images[0].src} />
-        <h1 className="card_title">{this.state.content.title}</h1>
-        <p className="card_summary">
-        {this.state.content.subtitle}
-        </p>
-      </section>
+      <Link
+        id={this.state.id}  className={this.state.className} to={this.state.url}>
+          <img
+            className= "card_image"
+            alt= {this.state.content.images[0].alt}
+            src= {this.state.content.images[0].src} />
+          <h1 className="card_title">{this.state.content.title}</h1>
+          <p className="card_summary">
+            {this.state.content.subtitle}
+          </p>
+      </Link>
     );
   }
 }

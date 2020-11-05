@@ -1,0 +1,25 @@
+#project_page_content_text {
+  margin-top: 20px;
+}
+
+.article_image {
+  float: left;
+  padding: 2vmin;
+  padding-left: 40px;
+  height:15vh;
+  width: 20vw;
+}
+
+/* Narrow screen style */
+@media only screen and (max-width: 800px) {
+  .article_image {
+    padding-left: 5vw;
+  }
+}
+
+/* Very narrow screen style */
+@media only screen and (max-width: 600px) {
+  .article_image {
+    padding-left: 30px;
+  }
+}

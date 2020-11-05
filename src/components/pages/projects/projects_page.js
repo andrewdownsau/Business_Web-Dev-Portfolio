@@ -22,6 +22,7 @@ function generate_card_array() {
     <Card 
       key={"project_card_" + index} 
       id={"project_card_" + index}
+      url={"/projects/" + Projects[index].title.replace(/\s/g, '_')}
       content={Projects[index]}/>);
   }
   return card_item_arr;
