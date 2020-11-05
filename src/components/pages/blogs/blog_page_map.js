@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogTitleArea from './blog_title_area/blog_title_area';
-import Card from '../../general/body_components/card/card.js';
-import CategoryIcon from '../../general/body_components/category_icon/category_icon.js';
+import Card from '../../global/body_components/card/card.js';
+import CategoryIcon from '../../global/body_components/category_icon/category_icon';
 import BlogCategories from './blog_categories.json';
 import Blogs from './blog_archive.json';
 import '../styles/blog_page.css'

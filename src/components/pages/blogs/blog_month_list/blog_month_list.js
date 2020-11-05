@@ -1,5 +1,5 @@
 import React from 'react';
-import ListItem from '../../../general/body_components/list_item/list_item';
+import ListItem from '../../../global/body_components/list_item/list_item';
 import Blogs from '../blog_archive.json';
 import './blog_month_list.css'
 

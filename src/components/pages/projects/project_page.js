@@ -1,6 +1,6 @@
 import React from 'react';
-import PageTitle from '../../general/body_components/page_title/page_title.js';
-import PageText from '../../general/body_components/page_text/page_text.js';
+import PageTitle from '../../global/body_components/page_title/page_title';
+import PageText from '../../global/body_components/page_text/page_text';
 import Projects from './projects.json';
 import '../styles/project_page.css';
 

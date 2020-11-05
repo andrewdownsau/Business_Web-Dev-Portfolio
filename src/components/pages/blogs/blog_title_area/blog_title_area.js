@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTitle from '../../../general/body_components/page_title/page_title';
+import PageTitle from '../../../global/body_components/page_title/page_title';
 import { Link } from 'react-router-dom';
 
 export default class BlogTitleArea extends React.Component {
