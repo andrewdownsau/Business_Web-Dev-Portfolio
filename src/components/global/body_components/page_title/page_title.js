@@ -8,12 +8,15 @@ export default class PageTitle extends React.Component {
   }
 
   static getDerivedStateFromProps(props) {
-    return {content: props.content };
+    return {
+      content: props.content,
+      id: props.id
+    };
   }
 
   render() {
     return (
-      <h1 className={this.state.className}>
+      <h1 id={this.state.id} className={this.state.className}>
         {this.state.content}
       </h1>
     );

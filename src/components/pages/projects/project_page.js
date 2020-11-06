@@ -1,6 +1,6 @@
 import React from 'react';
-import PageTitle from '../../global/body_components/page_title/page_title';
 import PageText from '../../global/body_components/page_text/page_text';
+import PageTitleWithMenu from '../../global/body_components/page_title_with_menu/page_title_with_menu';
 import Projects from './projects.json';
 import '../styles/project_page.css';
 
@@ -19,9 +19,16 @@ export default class ProjectPage extends React.Component {
   }
   
   render() {
+    let links_arr = ["none", "none", "/projects"];
+    if(this.state.index > 0) { 
+      links_arr[0] = "/projects/" + Projects[this.state.index-1].title.replace(/\s/g, '_'); 
+    }
+    if(this.state.index < Projects.length-1) { 
+      links_arr[1] = "/projects/" + Projects[this.state.index+1].title.replace(/\s/g, '_'); 
+    }
     return (
       <section id={"project_page_content"}>
-        <PageTitle content="Personal Project:" />
+        <PageTitleWithMenu links_arr={links_arr} title="Personal Project:" />
         <PageText content={Projects[this.state.index].title} />
         <img
           className= "article_image"
