@@ -59,6 +59,7 @@ function generate_blog_cards(category) {
           <Card 
             key={"blog_article_card_" + index} 
             id={"blog_article_card_" + index}
+            url={"/blog/map/" + category + '/' + Blogs[index].title.replace(/\s/g, '_')}
             content={Blogs[index]}/>);
       }
     }

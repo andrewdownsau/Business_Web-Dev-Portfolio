@@ -37,16 +37,6 @@ export default class PageTitleWithMenu extends React.Component {
         );
       }
     }
-    // for(let index=0; index < 3; index++){
-    //   menu_links.push(
-    //     <Link 
-    //       key={"menu_link_" + index+3}
-    //       className={"small_button"} 
-    //       to={this.state.links_arr[index]}>
-    //         {link_content_arr[index+3]}
-    //     </Link>
-    //   );
-    // }
     return (
         <section id="title_area_with_menu">
           <PageTitle id={"page_title_next_to_menu"} content={this.state.title} />

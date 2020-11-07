@@ -11,6 +11,7 @@ import SkillPage from './pages/skills/skill_page.js';
 import ProjectsPage from './pages/projects/projects_page.js';
 import ProjectPage from './pages/projects/project_page.js';
 import BlogPageMap from './pages/blogs/blog_page_map.js';
+import BlogPageMapArticle from './pages/blogs/blog_page_map_article.js';
 import BlogPageList from './pages/blogs/blog_page_list.js';
 import ContactPage from './pages/contact_page.js';
 
@@ -41,6 +42,7 @@ export default class Page extends React.Component {
 }
 
 function render_url_matched_page(page, index) {
+  // console.log(index);
   switch (page) {
     case "about":
       return <AboutPage />;
@@ -54,6 +56,8 @@ function render_url_matched_page(page, index) {
       return <ProjectPage index={index} />;
     case "blog_map":
       return <BlogPageMap index={index}/>;
+    case "blog_map_article":
+      return <BlogPageMapArticle index={index}/>;
     case "blog_list":
       return <BlogPageList />;
     case "contact":

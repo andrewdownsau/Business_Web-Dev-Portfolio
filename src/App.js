@@ -5,6 +5,7 @@ import Pages from './components/pages.json';
 import Skills from './components/pages/skills/skills.json';
 import Projects from './components/pages/projects/projects.json';
 import BlogCategories from './components/pages/blogs/blog_categories.json';
+import Blogs from './components/pages/blogs/blog_archive.json';
 import {
   Switch,
   Route,
@@ -41,21 +42,32 @@ function generate_route_arr() {
   }
 
   // Project Routes //
-  for(let index=0; index < BlogCategories.length; index++){
-    const blog_category = BlogCategories[index].category_title
-    route_arr.push(
-      <Route key={"blog_route_map_" + blog_category} path={'/blog/map/' + blog_category}>
-        <Page key={"blog_page_map_" + blog_category} page={"blog_map"} index={blog_category}/>
-      </Route>
-    )
-  }
-
-  // Blog Routes //
   for(let index=0; index < Projects.length; index++){
     const project = Projects[index].title.replace(/\s/g, '_');
     route_arr.push(
       <Route key={"project_route_" + index} path={'/projects/' + project}>
         <Page key={"project_page_" + index} page={"project"} index={index}/>
+      </Route>
+    )
+  }
+
+  // Blog Routes //
+  for(let category_index=0; category_index < BlogCategories.length; category_index++){
+    const blog_category = BlogCategories[category_index].category_title
+    for(let index=0; index < Blogs.length; index++){
+      if(Blogs[index].category.includes(blog_category)){
+        // console.log(index);
+        const blog_url = Blogs[index].title.replace(/\s/g, '_');
+        route_arr.push(
+          <Route key={"blog_route_map_" + blog_category + '_' + blog_url} path={'/blog/map/' + blog_category + '/' + blog_url}>
+            <Page key={"blog_page_map_" + blog_category + '_' + blog_url} page={"blog_map_article"} index={index}/>
+          </Route>
+        )
+      }
+    }
+    route_arr.push(
+      <Route key={"blog_route_map_" + blog_category} path={'/blog/map/' + blog_category}>
+        <Page key={"blog_page_map_" + blog_category} page={"blog_map"} index={blog_category}/>
       </Route>
     )
   }
