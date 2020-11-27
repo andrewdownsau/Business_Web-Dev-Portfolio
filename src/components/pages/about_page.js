@@ -12,7 +12,7 @@ export default class AboutPage extends React.Component {
         <PageText content="Understanding has come hard, but nothing worth doing was ever easy." />
         <PageText content="I'm a full stack web developer in training @ Coder Academy I want to understand the wants and needs of both clients and their customers to produce digital products that enrich our connections and expand our understanding." />
         <PageText content="This web portfolio is here to showcase my skills and interests to anyone who may be need of my abilities presently or in the near future. If you want to view a formal document, click on this link below." />
-        <a id="resume_link" href="/2020_02_18 Andrew Downs Resume.pdf">
+        <a id="resume_link" href="/2020_11_27_Andrew_Downs_Resume.pdf">
           Developer Resume
         </a>
         <img
